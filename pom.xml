@@ -9,6 +9,9 @@
 
   <name>NalE2E-25-03-2020</name>
   <url>http://maven.apache.org</url>
+    <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
      <build>
         <pluginManagement>
           <plugins>
@@ -25,9 +28,6 @@
           </plugins>
         </pluginManagement>
       </build>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
