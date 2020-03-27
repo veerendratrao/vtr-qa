@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="139083" started-at="2020-03-26T17:55:14Z" finished-at="2020-03-26T17:57:33Z">
+  <suite name="Suite" duration-ms="281246" started-at="2020-03-27T17:37:10Z" finished-at="2020-03-27T17:41:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="139083" started-at="2020-03-26T17:55:14Z" finished-at="2020-03-26T17:57:33Z">
+    <test name="Test" duration-ms="281246" started-at="2020-03-27T17:37:10Z" finished-at="2020-03-27T17:41:51Z">
       <class name="nal.qa.tests.SignupPageTest">
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="Initialize" is-config="true" duration-ms="56433" started-at="2020-03-26T23:25:17Z" finished-at="2020-03-26T23:26:13Z">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="Initialize" is-config="true" duration-ms="20625" started-at="2020-03-27T23:10:21Z" finished-at="2020-03-27T23:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="PASS" signature="CreateRediffAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="CreateRediffAccount" duration-ms="3343" started-at="2020-03-26T23:26:13Z" data-provider="SignupData" finished-at="2020-03-26T23:26:17Z">
+        <test-method status="PASS" signature="CreateRediffAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="CreateRediffAccount" duration-ms="3643" started-at="2020-03-27T23:10:42Z" data-provider="SignupData" finished-at="2020-03-27T23:10:45Z">
           <params>
             <param index="0">
               <value>
@@ -72,15 +72,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRediffAccount -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="Teardown" is-config="true" duration-ms="10326" started-at="2020-03-26T23:26:17Z" finished-at="2020-03-26T23:26:27Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="Teardown" is-config="true" duration-ms="6326" started-at="2020-03-27T23:10:45Z" finished-at="2020-03-27T23:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="Initialize" is-config="true" duration-ms="26064" started-at="2020-03-26T23:26:27Z" finished-at="2020-03-26T23:26:53Z">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="Initialize" is-config="true" duration-ms="17593" started-at="2020-03-27T23:10:52Z" finished-at="2020-03-27T23:11:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="PASS" signature="CreateRediffAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="CreateRediffAccount" duration-ms="3092" started-at="2020-03-26T23:26:53Z" data-provider="SignupData" finished-at="2020-03-26T23:26:56Z">
+        <test-method status="PASS" signature="CreateRediffAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="CreateRediffAccount" duration-ms="2339" started-at="2020-03-27T23:11:09Z" data-provider="SignupData" finished-at="2020-03-27T23:11:12Z">
           <params>
             <param index="0">
               <value>
@@ -141,15 +141,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRediffAccount -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="Teardown" is-config="true" duration-ms="10667" started-at="2020-03-26T23:26:56Z" finished-at="2020-03-26T23:27:07Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="Teardown" is-config="true" duration-ms="9063" started-at="2020-03-27T23:11:12Z" finished-at="2020-03-27T23:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="Initialize" is-config="true" duration-ms="15009" started-at="2020-03-26T23:27:07Z" finished-at="2020-03-26T23:27:22Z">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="Initialize" is-config="true" duration-ms="14944" started-at="2020-03-27T23:11:21Z" finished-at="2020-03-27T23:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="PASS" signature="CreateRediffAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="CreateRediffAccount" duration-ms="2618" started-at="2020-03-26T23:27:22Z" data-provider="SignupData" finished-at="2020-03-26T23:27:24Z">
+        <test-method status="PASS" signature="CreateRediffAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="CreateRediffAccount" duration-ms="2143" started-at="2020-03-27T23:11:36Z" data-provider="SignupData" finished-at="2020-03-27T23:11:38Z">
           <params>
             <param index="0">
               <value>
@@ -210,11 +210,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRediffAccount -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.SignupPageTest@27efef64]" name="Teardown" is-config="true" duration-ms="8995" started-at="2020-03-26T23:27:24Z" finished-at="2020-03-26T23:27:33Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.SignupPageTest@77caeb3e]" name="Teardown" is-config="true" duration-ms="13538" started-at="2020-03-27T23:11:38Z" finished-at="2020-03-27T23:11:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- nal.qa.tests.SignupPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="nal.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.LoginPageTest@66a3ffec]" name="Initialize" is-config="true" duration-ms="24223" started-at="2020-03-27T23:08:50Z" finished-at="2020-03-27T23:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="ValidateTitle()[pri:1, instance:nal.qa.tests.LoginPageTest@66a3ffec]" name="ValidateTitle" duration-ms="9" started-at="2020-03-27T23:09:14Z" finished-at="2020-03-27T23:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.LoginPageTest@66a3ffec]" name="Teardown" is-config="true" duration-ms="15205" started-at="2020-03-27T23:09:14Z" finished-at="2020-03-27T23:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.LoginPageTest@66a3ffec]" name="Initialize" is-config="true" duration-ms="31493" started-at="2020-03-27T23:09:29Z" finished-at="2020-03-27T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="LoginTest()[pri:2, instance:nal.qa.tests.LoginPageTest@66a3ffec]" name="LoginTest" duration-ms="4561" started-at="2020-03-27T23:10:01Z" finished-at="2020-03-27T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.LoginPageTest@66a3ffec]" name="Teardown" is-config="true" duration-ms="12373" started-at="2020-03-27T23:10:05Z" finished-at="2020-03-27T23:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- nal.qa.tests.LoginPageTest -->
+      <class name="nal.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.HomePageTest@1e88b3c]" name="Initialize" is-config="true" duration-ms="52933" started-at="2020-03-27T23:07:10Z" finished-at="2020-03-27T23:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="ClickOnProfileLabel()[pri:0, instance:nal.qa.tests.HomePageTest@1e88b3c]" name="ClickOnProfileLabel" duration-ms="510" started-at="2020-03-27T23:08:03Z" finished-at="2020-03-27T23:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnProfileLabel -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.HomePageTest@1e88b3c]" name="Teardown" is-config="true" duration-ms="11060" started-at="2020-03-27T23:08:04Z" finished-at="2020-03-27T23:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:nal.qa.tests.HomePageTest@1e88b3c]" name="Initialize" is-config="true" duration-ms="18841" started-at="2020-03-27T23:08:15Z" finished-at="2020-03-27T23:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="VerifyHomePageTitle()[pri:0, instance:nal.qa.tests.HomePageTest@1e88b3c]" name="VerifyHomePageTitle" duration-ms="67" started-at="2020-03-27T23:08:33Z" finished-at="2020-03-27T23:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:nal.qa.tests.HomePageTest@1e88b3c]" name="Teardown" is-config="true" duration-ms="16127" started-at="2020-03-27T23:08:33Z" finished-at="2020-03-27T23:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- nal.qa.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -19,7 +19,7 @@ public TestBase()
 {
 	FileInputStream fis;
 	try {
-		fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/nal/qa/config/config.properties");
+		fis = new FileInputStream(System.getProperty("C:\\Users\\user\\Downloads\\eclipse-oxygen\\NalE2E-25-03-2020\\src\\main\\java\\nal\\qa\\config\\config.properties"));
 		prop=new Properties();
 		prop.load(fis);
 	    } catch (FileNotFoundException e) {
