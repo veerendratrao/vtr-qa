@@ -7,6 +7,7 @@
     <classes>
       <class name="nal.qa.tests.LoginPageTest"/>
       <class name="nal.qa.tests.SignupPageTest"/>
+      <class name="nal.qa.tests.LandingPageTest"/>
       <class name="nal.qa.tests.HomePageTest"/>
     </classes>
   </test> <!-- Test -->
