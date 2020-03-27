@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="nal.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="nal.qa.tests.SignupPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- nal.qa.tests.SignupPageTest -->
+      <class name="nal.qa.tests.HomePageTest">
+        <methods>
+          <include name="Initialize"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- nal.qa.tests.HomePageTest -->
+      <class name="nal.qa.tests.LoginPageTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="Initialize"/>
+          <include name="ValidateTitle"/>
+        </methods>
+      </class> <!-- nal.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
